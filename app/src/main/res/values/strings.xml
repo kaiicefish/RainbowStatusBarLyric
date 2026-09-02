@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">彩虹歌词</string>
+    <string name="tips_header">接管网易云的桌面歌词 / 状态栏歌词配色</string>
+
+    <!-- 开关 -->
+    <string name="enable_module">启用模块</string>
+    <string name="enable_desktop">接管桌面歌词</string>
+    <string name="enable_status">接管状态栏歌词</string>
+
+    <!-- 配色 -->
+    <string name="section_color">配色</string>
+    <string name="colors_label">渐变色值（#RRGGBB，逗号分隔，至少 2 个）</string>
+    <string name="colors_hint">例如：#FF4D6D,#FF8A3D,#FFD84D,#5BE59A</string>
+
+    <!-- 动效 -->
+    <string name="section_effect">流光与呼吸</string>
+    <string name="flow_speed">流光速度</string>
+    <string name="breath_range">呼吸幅度</string>
+    <string name="breath_period">呼吸周期</string>
+
+    <!-- 扭曲 -->
+    <string name="section_warp">扭曲效果</string>
+    <string name="warp_effect">效果类型</string>
+    <string name="warp_amp">振幅</string>
+    <string name="warp_freq">频率</string>
+    <string name="warp_speed">流动速度</string>
+
+    <string-array name="warp_entries">
+        <item>关闭</item>
+        <item>热浪</item>
+        <item>水波</item>
+        <item>抖动</item>
+    </string-array>
+
+    <!-- 消散（未完成） -->
+    <string name="section_dissolve">消散（未完成）</string>
+    <string name="dissolve_enable">歌词切换时上一句化作粒子飘散</string>
+    <string name="dissolve_step">粒子密度</string>
+    <string name="dissolve_life">消散时长</string>
+    <string name="dissolve_rise">上升速度</string>
+    <string name="dissolve_spread">水平扩散</string>
+    <string name="dissolve_size">粒子大小</string>
+
+    <!-- 陀螺仪摆动（未完成） -->
+    <string name="section_tilt">陀螺仪摆动（未完成）</string>
+    <string name="tilt_enable">歌词随手机晃动小幅摆动</string>
+    <string name="tilt_sens">摆动灵敏度</string>
+
+    <!-- 操作 -->
+    <string name="save">保存并应用</string>
+    <string name="reset">恢复默认参数</string>
+    <string name="restart_netease">强制停止网易云（需 Root）</string>
+
+    <string-array name="xposed_scope">
+        <item>com.netease.cloudmusic</item>
+    </string-array>
+</resources>
